@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML & CSS3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script> -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgn7aeBnwkbwEsFc108Pzj9ynHd1Peh-I"></script>
+    </head>
+    <body onload="getYourPosition()">
+        <article>
+            <section>
+                <h1>ABOUT US</h1>
+                <p>
+                    The purpose of this exercise is to help students get familiar with basic HTML5. At the end of this exercise, students can understand the HTML5 page structures
+                </p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/CSC_Logo.svg/2000px-CSC_Logo.svg.png" alt="" class="logo-img">
+                </figure>
+                <p>
+                    The purpose of this exercise is to help students get familiar with basic HTML5. At the end of this exercise, students can understand the HTML5 page structures
+                </p>
+            </section>
+
+            <section>
+                <h1>OUR SOLUTION</h1>
+                <video width="320" height="320" controls>
+                    <source src="video/02_01-What is Swift.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section>
+                <h1>WHERE WE WORK</h1>
+                <div id="map_canvas"></div>
+            </section>
+
+            <section>
+                <h1>SAY SOMETHING ABOUT US</h1>
+                <p>
+                    <span>Your name</span>
+                    <input type="text" id="txtName" name="" value="">
+                </p>
+
+                <p>
+                    <span>Your email</span>
+                    <input type="email" id="txtEmail">
+                </p>
+
+                <p>
+                    <span>Your comment</span>
+                    <textarea rows="" cols="" type="text" id="txtComment"></textarea>
+                </p>
+
+                <button type="button" id="submitBtn">Submit</button>
+            </section>
+
+            <section>
+                <h1>ALL COMMENTS</h1>
+                <button id="showComments">Show all</button>
+                <button id="clearComments">Clear all</button>
+                <br>
+                <span id="localStorageInfo" style="display: none;">localStorage is not available in your browser!</span>
+                <div id="all-comments-container"></div>
+            </section>
+        </article>
+    </body>
+</html>
