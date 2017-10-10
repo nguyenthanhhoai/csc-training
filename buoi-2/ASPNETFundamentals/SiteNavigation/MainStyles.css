@@ -1,0 +1,64 @@
+﻿body
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+.Header
+{
+    position: absolute;
+    top: 2px;
+    left: 150px;
+    right: 150px;
+    height: 60px;
+    text-align: center;
+    background: #FFCC66;
+}
+.LeftPanel
+{
+    position: absolute;
+    top: 65px;
+    left: 150px;
+    width: 160px;
+    height: 400px;
+    border-style: solid solid solid;
+    border-right: 1px solid #FF9900;
+    border-width: 1px;
+    border-color: #FF9900;
+    background: #FFF8DF;
+}
+.RightPanel
+{
+    position: absolute;
+    top: 65px;
+    right: 150px;
+    width: 160px;
+    height: 394px;
+    padding: 3px 3px 3px 5px;
+    border-style: solid solid solid;
+    border-right: 1px solid #FF9900;
+    border-width: 1px;
+    border-color: #FF9900;
+    background: #FFFEF7;
+}
+.CenterPanel
+{
+    position: relative;
+    top: 65px;
+    height: 400px;
+    margin-left: 310px;
+    margin-right: 335px;
+}
+.Footer
+{
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 470px;
+    bottom: 5px;
+}
+.menu
+{
+    position: absolute;
+    padding-left: 5px;
+}
+.topMenuFlyout { background: #FFCC66; }
