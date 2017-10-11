@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="ASPNetFundamentals.SiteNavigation.MainPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="MainStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="Header">
+        <h1>ASP.NET Fundamentals - Site Navigation</h1>
+    </div>
+    <div class="LeftPanel">
+        <strong>TreeView</strong>
+        <asp:TreeView ID="leftTree" runat="server" Width="150px" DataSourceID="SiteMapDataSource1">
+        </asp:TreeView>
+        <br />
+        <strong>Menu</strong>
+        <asp:Menu ID="topMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Vertical"
+            CssClass="menu"></asp:Menu>
+    </div>
+    <div class="CenterPanel">
+        <!--breadcrumb-->
+        <asp:SiteMapPath ID="breadcrumb" runat="server">
+            <CurrentNodeStyle Font-Bold="true" />
+        </asp:SiteMapPath>
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="RightPanel">
+        <asp:ContentPlaceHolder ID="Teaser" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="Footer">
+        <hr />
+        Copyright &copy; by ASP.NET Fundamentals Course
+        <hr />
+    </div>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />   
+    </form>
+</body>
+</html>

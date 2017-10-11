@@ -1,0 +1,5 @@
+﻿
+<asp:Button runat="server" SkinID="ShowButton" ForeColor="#ff0000" Width="60px" CssClass="btn" />
+ 
+<asp:Button runat="server" SkinID="HideButton" ForeColor="#0000ff" Width="60px" CssClass="btn" />
+ 

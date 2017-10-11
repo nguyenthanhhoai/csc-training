@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainPage.master.cs" Inherits="ASPNetFundamentals.MasterPagesAndThemes.MainPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="MainStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="Header">
+        <h1></h1>
+    </div>
+    <div class="LeftPanel">
+        <asp:TreeView ID="leftTree" runat="server" Width="150px">
+            <Nodes>
+                <asp:TreeNode Text="Home" Value="Home">
+                    <asp:TreeNode Text="Page 1" Value="Page 1"></asp:TreeNode>
+                    <asp:TreeNode Text="Page 2" Value="Page 2"></asp:TreeNode>
+                </asp:TreeNode>
+            </Nodes>
+        </asp:TreeView>
+    </div>
+    <div class="CenterPanel">
+        » Products & Services » Individuals » Car
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="RightPanel">
+        <asp:ContentPlaceHolder ID="Teaser" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="Footer">
+        <hr />
+        Copyright &copy; by ASP.NET Fundamentals Course
+        <hr />
+    </div>
+    </form>
+</body>
+</html>

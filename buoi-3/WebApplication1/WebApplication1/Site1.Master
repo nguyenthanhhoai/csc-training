@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+</head>
+<body>
+
+    <header>
+        <h1>ASP.NET Fundamentals - Master Pages and Themes</h1>
+    </header>
+
+    <div class="left">
+        <h3>Title left</h3>
+    </div>
+
+    <div class="content">
+        <h3>
+            <asp:PlaceHolder ID="centerPlaceHolder" runat="server"></asp:PlaceHolder>
+        </h3>
+    </div>
+
+    <div class="right">
+        <h3>
+            <asp:PlaceHolder ID="rightPlaceHolder" runat="server"></asp:PlaceHolder>
+        </h3>
+    </div>
+</body>
+</html>

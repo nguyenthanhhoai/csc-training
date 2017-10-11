@@ -1,0 +1,8 @@
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\training\Desktop\csc-training\buoi-3\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
