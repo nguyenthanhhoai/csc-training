@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="jquery.min.js"></script>
+ <link rel="stylesheet" href="style.css">
+ <script>
+     $(document).ready(function(){
+        $(".nav-btn").click(function(){
+            //alert(111111);
+            $('.canvas-outer').toggleClass('nav-push');
+        });
+    }); 
+ </script>
+</head>
+<body>
+
+
+    <div class="canvas-outer">
+        <div class="canvas-inner">
+            <div class="header">
+                <div class="container">
+                    <a class="nav-btn" data-target="canvas-outer"><span>C1</span></a>
+                    <a class="nav-brand">RWD</a>
+                    <div class="nav-wrap nav-push">
+                        <ul class="nav">
+                            <li class="search-form">
+                                <form method="GET">
+                                    <input class="searchStyle" type="search" placeholder="Search" />
+                                </form>
+                            </li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Other</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content container">
+                <div class="main">.main</div>
+                <div class="left">.feft</div>
+                <div class="right">.right</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
